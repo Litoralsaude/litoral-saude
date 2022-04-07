@@ -1,0 +1,35 @@
+.img {
+  width: 121px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+  width: 100%;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  padding: 0 12px;
+}
+
+@media (min-width: 992px) {
+  .item {
+    padding: 0 33px;
+  }
+}
+
+.icon {
+  padding: 4px;
+}
+
+.iconsContainer {
+  display: flex;
+  flex-wrap: nowrap;
+}

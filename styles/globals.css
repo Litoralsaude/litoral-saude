@@ -11,6 +11,24 @@ a {
   text-decoration: none;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
 * {
   box-sizing: border-box;
+}
+
+:root {
+  --main-color: #005359;
+  --blue: #2f80ed;
+  --black: #353a3d;
+  --white: #fff;
+  --green: #004c51;
 }

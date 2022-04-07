@@ -1,0 +1,36 @@
+.h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 131.5%;
+
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: var(--black);
+}
+
+.h1-2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 131.5%;
+
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: var(--white);
+}
+
+.h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 131.5%;
+
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  color: var(--green);
+}
