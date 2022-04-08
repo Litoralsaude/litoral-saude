@@ -1,0 +1,9 @@
+.footer {
+  display: flex;
+  flex: 1;
+}
+
+.cr {
+  width: 100%;
+  background-color: var(--main-color);
+}
