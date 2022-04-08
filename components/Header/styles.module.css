@@ -2,11 +2,18 @@
   width: 121px;
 }
 
+.containerFluid {
+  position: relative;
+  margin-top: 60px;
+  z-index: 2;
+  background-color: #fff;
+  padding: 10px 0;
+}
+
 .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 60px;
   width: 100%;
 }
 
@@ -25,11 +32,24 @@
   }
 }
 
-.icon {
-  padding: 4px;
-}
-
 .iconsContainer {
   display: flex;
   flex-wrap: nowrap;
+}
+
+.iconsContainer img {
+  padding: 4px !important;
+}
+
+.mobileIcon {
+  color: #000;
+  width: 30px;
+  margin-bottom: 15px;
+}
+
+.mobileIcon svg {
+  font-size: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
 }

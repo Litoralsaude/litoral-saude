@@ -1,22 +1,24 @@
 import React from "react";
+import Link from "next/link";
 import golbalStyles from "../../../styles/global.module.css";
+import headerStyles from "../styles.module.css";
 
-const Navigation = ({ styles }) => {
+const Li = ({ title, href }) => (
+  <li className={`${golbalStyles.h3} ${headerStyles.item}`}>
+    <Link href={href}>
+      <a>{title}</a>
+    </Link>
+  </li>
+);
+
+const Navigation = ({ styles, navClassName }) => {
   return (
-    <nav className="d-none d-md-block">
+    <nav className={navClassName}>
       <ul className={styles.list}>
-        <li className={`${golbalStyles.h3} ${styles.item}`}>
-          <a>Quem somos</a>
-        </li>
-        <li className={`${golbalStyles.h3} ${styles.item}`}>
-          <a>Produtos</a>
-        </li>
-        <li className={`${golbalStyles.h3} ${styles.item}`}>
-          <a>Depoimentos</a>
-        </li>
-        <li className={`${golbalStyles.h3} ${styles.item}`}>
-          <a>Contato</a>
-        </li>
+        <Li title="Quem Somos" href={"/"} />
+        <Li title="Produtos" href={"/"} />
+        <Li title="Depoimentos" href={"/"} />
+        <Li title="Contato" href={"/"} />
       </ul>
     </nav>
   );
