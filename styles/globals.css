@@ -21,6 +21,16 @@ li {
   list-style-type: none;
 }
 
+button {
+  border: 0;
+  outline: none;
+  background-color: var(---white);
+}
+
+address {
+  margin: 0;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -31,4 +41,5 @@ li {
   --black: #353a3d;
   --white: #fff;
   --green: #004c51;
+  --border: #e0e0e0;
 }
