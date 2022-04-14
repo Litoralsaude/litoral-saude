@@ -27,8 +27,8 @@ const Document = () => {
           type="text/css"
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
         />
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <body>
         <Main />
         <NextScript />
