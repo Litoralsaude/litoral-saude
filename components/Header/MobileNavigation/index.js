@@ -11,7 +11,7 @@ const Container = styled.div`
     transition: height 0.5s, border 0.5s;
     overflow: hidden;
     left: 0;
-    top: 100%;
+    top: 99%;
     background-color: #fff;
     border-radius: 3px;
     padding: ${({ menuIsOpen }) => (menuIsOpen ? "5px" : "0")};
