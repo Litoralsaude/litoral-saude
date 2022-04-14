@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  padding: 40px 20px;
+  min-height: 355px;
+}
+
+.h1 {
+  margin: 10px 0;
+}
+
+@media (min-width: 668px) {
+  .container {
+    justify-content: space-between;
+    padding: 40px 60px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    padding: 60px 120px;
+  }
+}
