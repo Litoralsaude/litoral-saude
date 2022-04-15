@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Presentation from "../components/HomePage/Presentation";
-import PageCarousel from "../components/HomePage/PageCarousel";
+import WhoWeAre from "../components/HomePage/WhoWeAre";
 import Products from "../components/HomePage/Products";
 
 export default function Home() {
@@ -20,7 +20,7 @@ export default function Home() {
         />
       </div>
       <Presentation />
-      <PageCarousel />
+      <WhoWeAre />
       <Products />
       <Head>
         <title>Create Next App</title>

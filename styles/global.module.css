@@ -49,3 +49,13 @@
   margin-top: 25px;
   color: var(--blue);
 }
+
+.text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: -0.05em;
+  color: var(--text);
+}
