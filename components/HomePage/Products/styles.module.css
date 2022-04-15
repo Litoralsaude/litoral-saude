@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #dbf0ee;
+  padding: 50px 0;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
