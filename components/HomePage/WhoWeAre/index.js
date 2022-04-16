@@ -12,7 +12,7 @@ const WhoWeAre = () => {
         width={566}
         height={376}
         src="/osorio.jpg"
-        alt="Logo da litoral saúde"
+        alt="Cidade de Osório"
       />
       <div className={styles.wrapper}>
         <header>

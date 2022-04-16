@@ -20,7 +20,7 @@ const Presentation = () => {
           width={417}
           height={415}
           src="/home-img.png"
-          alt="Logo da litoral saúde"
+          alt="Imagem de ícones representando profissionais da saúde"
         />
       </div>
     </section>

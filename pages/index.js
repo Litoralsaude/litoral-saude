@@ -17,7 +17,7 @@ export default function Home() {
           width={2560}
           height={840}
           src="/onda2.png"
-          alt="Logo da litoral saúde"
+          alt="Imagem de onda"
         />
       </div>
       <Presentation />

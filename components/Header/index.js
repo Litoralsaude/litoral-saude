@@ -45,13 +45,13 @@ const Header = () => {
               src="/face.svg"
               width={17}
               height={17}
-              alt="instagram icon"
+              alt="Ícone do facebook"
             />
             <Image
               src="/insta.svg"
               width={17}
               height={17}
-              alt="instagram icon"
+              alt="Ícone do instagram"
             />
           </div>
         </div>

@@ -13,7 +13,7 @@ const Testimonial = ({ description, user, photo }) => {
           width={220}
           height={220}
           src={photo}
-          alt="Logo da litoral saúde"
+          alt="Foto do cliente que fez o depoimento"
         />
       </div>
       <div className={styles.contentWrapper}>
