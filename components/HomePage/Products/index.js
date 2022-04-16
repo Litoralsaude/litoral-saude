@@ -7,20 +7,20 @@ import globalStyles from "../../../styles/global.module.css";
 const Products = () => {
   return (
     <div className={`${styles.containerFluid} container-fluid`}>
-      <section className={styles.container}>
+      <section className={`${styles.container} container`}>
         <h2 className={globalStyles.h1}>Nossos produtos</h2>
         <div className={styles.cards}>
           <ProductCard
-            src="/face.svg"
+            src="/money.svg"
             alt="asdas"
             title="Produtos Odontológicos"
           />
           <ProductCard
-            src="/insta.svg"
+            src="/doctor.svg"
             alt="asdas"
             title="Produtos Médicos e Hospitalares "
           />
-          <ProductCard src="/face.svg" alt="asdas" title="Registro Próprio" />
+          <ProductCard src="/chart.svg" alt="asdas" title="Registro Próprio" />
         </div>
         <Link href="/produtos">
           <a className={globalStyles.link}>Ver tudo</a>
