@@ -1,0 +1,37 @@
+.container {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background-color: var(--white);
+}
+
+.container > header > * {
+  text-align: center;
+}
+
+.clients {
+  color: var(--main-color);
+  font-weight: 700;
+}
+
+.h2 {
+  margin: 20px 0 40px;
+}
+
+.text {
+  color: #969696;
+  margin-bottom: 20px;
+}
+
+.testimonialsWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1120px) {
+  .testimonialsWrapper img {
+    display: none !important;
+  }
+}

@@ -5,7 +5,7 @@ import styles from "./styles.module.css";
 
 const Presentation = () => {
   return (
-    <section className={styles.container}>
+    <section className={`${styles.container} container`}>
       <div>
         <p className={globalStyles.h3}>Osório -RS</p>
         <h1 className={`${globalStyles.h12} ${styles.h1}`}>

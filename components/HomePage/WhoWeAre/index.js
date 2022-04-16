@@ -7,7 +7,7 @@ import globalStyles from "../../../styles/global.module.css";
 
 const WhoWeAre = () => {
   return (
-    <section className={styles.container}>
+    <section className={`${styles.container} container`}>
       <Image
         width={566}
         height={376}
@@ -29,7 +29,7 @@ const WhoWeAre = () => {
         </p>
         <div className={styles.linkWrapper}>
           <Link href="/quem-somos">
-            <a className={`${globalStyles.link} `}>Ver Mais</a>
+            <a className={globalStyles.link}>Ver Mais</a>
           </Link>
         </div>
       </div>

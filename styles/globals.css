@@ -8,6 +8,11 @@ p {
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -45,4 +50,12 @@ address {
   --green: #004c51;
   --border: #e0e0e0;
   --text: #4f4f4f;
+}
+
+.slick-dots li.slick-active button:before {
+  color: var(--main-color);
+}
+
+.slick-dots li button:before {
+  font-size: 11px;
 }
