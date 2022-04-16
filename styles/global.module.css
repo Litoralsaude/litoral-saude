@@ -20,6 +20,16 @@
   color: var(--white);
 }
 
+.h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+  color: #353a3d;
+}
+
 .h3 {
   font-family: "Inter";
   font-style: normal;

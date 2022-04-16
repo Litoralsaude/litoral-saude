@@ -4,10 +4,13 @@
 
 .containerFluid {
   position: relative;
-  margin-top: 60px;
   z-index: 2;
   background-color: var(--white);
   padding: 10px 0;
+}
+
+.containerFluid.header {
+  margin-top: 60px;
 }
 
 .container {

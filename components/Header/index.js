@@ -7,12 +7,16 @@ import Navigation from "./Navigation";
 import MobileNavigation from "./MobileNavigation";
 import styles from "./styles.module.css";
 import golbalStyles from "../../styles/global.module.css";
+import { useRouter } from "next/router";
 
 const Header = () => {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
+  const { pathname } = useRouter();
   return (
     <div
-      className={`${styles.container} ${styles.containerFluid} container-fluid`}
+      className={`${styles.container} ${styles.containerFluid} ${
+        pathname === "/" && "header"
+      } container-fluid`}
     >
       <div className={`${styles.container} container-md`}>
         <Link href="/">
