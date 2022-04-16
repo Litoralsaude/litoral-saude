@@ -14,8 +14,8 @@ export default function Home() {
       <Header />
       <div className={styles.img}>
         <Image
-          width={1980}
-          height={740}
+          width={2560}
+          height={840}
           src="/onda2.png"
           alt="Logo da litoral saúde"
         />
