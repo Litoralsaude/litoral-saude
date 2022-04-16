@@ -6,14 +6,13 @@ import styles from "./styles.module.css";
 const Presentation = () => {
   return (
     <section className={`${styles.container} container`}>
-      <div>
-        <p className={globalStyles.h3}>Osório -RS</p>
-        <h1 className={`${globalStyles.h12} ${styles.h1}`}>
-          Somos Litoral Saúde
-        </h1>
-        <p className={globalStyles.h4}>
-          Fornecedor de equipamentos médicos e odontológicos
-        </p>
+      <div className={styles.imgWrapper}>
+        <Image
+          width={420}
+          height={250}
+          src="/litoral.svg"
+          alt="Logo da litoral saúde"
+        />
       </div>
       <div className="d-none d-lg-block d-xl-block">
         <Image

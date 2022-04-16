@@ -1,7 +1,12 @@
 .container {
   display: flex;
-  padding: 40px 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   min-height: 355px;
+}
+
+.container > .imgWrapper img {
+  object-position: 100% -100px;
 }
 
 .h1 {
