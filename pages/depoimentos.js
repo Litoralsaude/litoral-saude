@@ -10,12 +10,12 @@ const Depoimentos = () => {
   return (
     <>
       <Header />
-      <div className={`${styles.container} container`}>
+      <main className={`${styles.container} container`}>
         <h1 className={globalStyles.h2}>Depoimentos de clientes</h1>
         {testimonials.map((item) => (
           <Testimonial {...item} />
         ))}
-      </div>
+      </main>
       <Footer />
     </>
   );

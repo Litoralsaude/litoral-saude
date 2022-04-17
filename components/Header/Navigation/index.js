@@ -4,10 +4,10 @@ import golbalStyles from "../../../styles/global.module.css";
 import headerStyles from "../styles.module.css";
 import { useRouter } from "next/router";
 
-const Li = ({ title, href }) => {
+const Li = ({ title, href, isMobile }) => {
   const { pathname } = useRouter();
 
-  const isActive = pathname === href ? "active" : "";
+  const isActive = pathname === href && !isMobile ? "active" : "";
 
   return (
     <li
@@ -20,14 +20,14 @@ const Li = ({ title, href }) => {
   );
 };
 
-const Navigation = ({ styles, navClassName }) => {
+const Navigation = ({ styles, navClassName, isMobile }) => {
   return (
     <nav className={navClassName}>
       <ul className={styles.list}>
-        <Li title="Quem Somos" href={"/quem-somos"} />
-        <Li title="Produtos" href={"/produtos"} />
-        <Li title="Depoimentos" href={"/depoimentos"} />
-        <Li title="Contato" href={"/contato"} />
+        <Li title="Quem Somos" href={"/quem-somos"} isMobile={isMobile} />
+        <Li title="Produtos" href={"/produtos"} isMobile={isMobile} />
+        <Li title="Depoimentos" href={"/depoimentos"} isMobile={isMobile} />
+        <Li title="Contato" href={"/contato"} isMobile={isMobile} />
       </ul>
     </nav>
   );

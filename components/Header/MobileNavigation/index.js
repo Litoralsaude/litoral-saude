@@ -30,7 +30,7 @@ const MobileNavigation = ({ menuIsOpen }) => {
       menuIsOpen={menuIsOpen}
       className="d-block d-sm-block d-md-none d-lg-none d-xl-none"
     >
-      <Navigation styles={styles} />
+      <Navigation isMobile styles={styles} />
     </Container>
   );
 };
