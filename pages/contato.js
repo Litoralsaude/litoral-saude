@@ -18,7 +18,7 @@ const Contact = () => {
           style={{ opacity: 1 }}
         />
       </div>
-      <ContactComponent></ContactComponent>
+      <ContactComponent />
       <Footer />
     </>
   );
