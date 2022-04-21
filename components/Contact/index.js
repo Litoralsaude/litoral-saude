@@ -29,7 +29,7 @@ const Contact = () => {
                   alt="Imagem de onda"
                   style={{ opacity: 1 }}
                 />
-                <Link href={"https://www.facebook.com"}>
+                <Link href="https://www.facebook.com/people/Litoral-Sa%C3%BAde/100004638612180/">
                   <a target="_blank">Facebook</a>
                 </Link>
               </div>
@@ -41,7 +41,7 @@ const Contact = () => {
                   alt="Imagem de onda"
                   style={{ opacity: 1 }}
                 />
-                <Link href={"https://www.instagram.com"}>
+                <Link href="https://www.instagram.com/litoral.saude/">
                   <a target="_blank">Instagram</a>
                 </Link>
               </div>

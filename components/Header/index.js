@@ -51,18 +51,27 @@ const Header = () => {
         <Navigation navClassName="d-none d-md-block" styles={styles} />
         <div className="d-none d-lg-block">
           <div className={styles.iconsContainer}>
-            <Image
-              src="/face.svg"
-              width={17}
-              height={17}
-              alt="Ícone do facebook"
-            />
-            <Image
-              src="/insta.svg"
-              width={17}
-              height={17}
-              alt="Ícone do instagram"
-            />
+            <Link href="https://www.facebook.com/people/Litoral-Sa%C3%BAde/100004638612180/">
+              <a target="_blank">
+                <Image
+                  src="/face.svg"
+                  width={17}
+                  height={17}
+                  alt="Ícone do facebook"
+                />
+              </a>
+            </Link>
+
+            <Link href="https://www.instagram.com/litoral.saude/">
+              <a target="_blank">
+                <Image
+                  src="/insta.svg"
+                  width={17}
+                  height={17}
+                  alt="Ícone do instagram"
+                />
+              </a>
+            </Link>
           </div>
         </div>
       </div>
