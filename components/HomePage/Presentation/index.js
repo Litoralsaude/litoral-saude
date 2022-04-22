@@ -13,13 +13,14 @@ const Presentation = () => {
           src="/litoral.svg"
           alt="Logo da litoral saúde"
         />
+        <h1 className="d-none">Somos Litoral Saúde</h1>
       </div>
       <div className="d-none d-lg-block d-xl-block">
         <Image
           width={417}
           height={415}
           src="/home-img.png"
-          alt="Logo da litoral saúde"
+          alt="Imagem de ícones representando profissionais da saúde"
         />
       </div>
     </section>

@@ -6,7 +6,7 @@
   padding: 30px;
   width: 230px;
   height: 200px;
-  margin: 14px;
+  margin: 14px 14px 0 0;
 
   background: var(--white);
   border: 2.5px solid #616161;

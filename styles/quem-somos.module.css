@@ -1,0 +1,33 @@
+.text {
+  text-align: justify;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.background {
+  background-color: #dbf0ee;
+}
+
+.itemList {
+  margin-left: 5px;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.listContainer > ul:first-of-type {
+  margin-right: 30px;
+}
+
+@media (min-width: 768px) {
+  .listContainer {
+    flex-direction: row;
+  }
+}

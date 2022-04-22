@@ -4,10 +4,13 @@
 
 .containerFluid {
   position: relative;
-  margin-top: 60px;
   z-index: 2;
   background-color: var(--white);
   padding: 10px 0;
+}
+
+.containerFluid.header {
+  margin-top: 60px;
 }
 
 .container {
@@ -24,6 +27,22 @@
 
 .item {
   padding: 0 12px;
+}
+
+.item.active {
+  position: relative;
+}
+
+.item.active:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 29px;
+  width: 50px;
+  height: 3px;
+  background-color: #80d3c6;
+  left: 33%;
+  border-radius: 5px;
 }
 
 @media (min-width: 992px) {

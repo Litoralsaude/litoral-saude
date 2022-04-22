@@ -18,7 +18,7 @@ const Footer = () => {
             className={styles.img}
             width={121}
             height={62}
-            src="/logo.svg"
+            src="/litoral.svg"
             alt="Logo da litoral saúde"
           />
           <address className={styles.infoContainer}>
