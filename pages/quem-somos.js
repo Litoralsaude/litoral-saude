@@ -59,10 +59,16 @@ const QuemSomos = () => {
           <div className="container">
             <h2 className={globalStyles.h2}>Valores</h2>
             <ul>
-              <li className={styles.itemList}>- Respeito à vida</li>
-              <li className={styles.itemList}>- Ética e transparência</li>
-              <li className={styles.itemList}>- Respeito aos colaboradores</li>
-              <li className={styles.itemList}>
+              <li className={`${styles.itemList} ${globalStyles.text}`}>
+                - Respeito à vida
+              </li>
+              <li className={`${styles.itemList} ${globalStyles.text}`}>
+                - Ética e transparência
+              </li>
+              <li className={`${styles.itemList} ${globalStyles.text}`}>
+                - Respeito aos colaboradores
+              </li>
+              <li className={`${styles.itemList} ${globalStyles.text}`}>
                 - Acreditar que o trabalho e a educação mudam o mundo.
               </li>
             </ul>
@@ -85,20 +91,36 @@ const QuemSomos = () => {
             </p>
             <div className={styles.listContainer}>
               <ul>
-                <li className={styles.itemList}>- Afe Cosméticos</li>
-                <li className={styles.itemList}>- Afe Saneantes</li>
-                <li className={styles.itemList}>- Afe Correlatos</li>
-                <li className={styles.itemList}>- Afe Medicamentos</li>
-                <li className={styles.itemList}>
+                <li className={`${styles.itemList} ${globalStyles.text}`}>
+                  - Afe Cosméticos
+                </li>
+                <li className={`${styles.itemList} ${globalStyles.text}`}>
+                  - Afe Saneantes
+                </li>
+                <li className={`${styles.itemList} ${globalStyles.text}`}>
+                  - Afe Correlatos
+                </li>
+                <li className={`${styles.itemList} ${globalStyles.text}`}>
+                  - Afe Medicamentos
+                </li>
+                <li className={`${styles.itemList} ${globalStyles.text}`}>
                   - Afe Medicamentos Especiais
                 </li>
               </ul>
               <ul>
-                <li className={styles.itemList}>- Alvarás</li>
-                <li className={styles.itemList}>- Registro Anvisa</li>
-                <li className={styles.itemList}>- PPCI</li>
-                <li className={styles.itemList}>- Radar</li>
-                <li className={styles.itemList}>
+                <li className={`${styles.itemList} ${globalStyles.text}`}>
+                  - Alvarás
+                </li>
+                <li className={`${styles.itemList} ${globalStyles.text}`}>
+                  - Registro Anvisa
+                </li>
+                <li className={`${styles.itemList} ${globalStyles.text}`}>
+                  - PPCI
+                </li>
+                <li className={`${styles.itemList} ${globalStyles.text}`}>
+                  - Radar
+                </li>
+                <li className={`${styles.itemList} ${globalStyles.text}`}>
                   - Boas Práticas de Distribuição de Medicamentos
                 </li>
               </ul>
