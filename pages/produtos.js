@@ -11,17 +11,21 @@ const Produtos = () => {
     <>
       <Header />
       <main className="container-fluid">
-        <h1 className={`${globalStyles.text} ${styles.subtitle}`}>
-          Nossos produtos
-        </h1>
-        <p className={globalStyles.h2}>Médicos</p>
-        <ul>
-          <li className={quemSomosStyles.itemList}>
-            - Produtos médicos e hospitalares
-          </li>
-          <li className={quemSomosStyles.itemList}>- Produtos odontológicos</li>
-          <li className={quemSomosStyles.itemList}>- Registro Próprio</li>
-        </ul>
+        <section className="container">
+          <h1 className={`${globalStyles.text} ${styles.subtitle}`}>
+            Nossos produtos
+          </h1>
+          <p className={globalStyles.h2}>Médicos</p>
+          <ul>
+            <li className={quemSomosStyles.itemList}>
+              - Produtos médicos e hospitalares
+            </li>
+            <li className={quemSomosStyles.itemList}>
+              - Produtos odontológicos
+            </li>
+            <li className={quemSomosStyles.itemList}>- Registro Próprio</li>
+          </ul>
+        </section>
         <section className="container">
           <h2 className={`${globalStyles.h2} ${styles.h2}`}>
             CATETER IV COM DISPOSITIVO DE SEGURANÇA MEDIPRIME SAFE{" "}
