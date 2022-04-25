@@ -36,12 +36,9 @@ const QuemSomos = () => {
           <div className="container">
             <h2 className={globalStyles.h2}>Missão</h2>
             <p className={`${globalStyles.text} ${styles.text}`}>
-              A Litoral Saúde é uma empresa gaúcha especializada na
-              comercialização de medicamentos, materiais odontológicos e
-              hospitalares, de registro próprio e de terceiros. Desde o início
-              de suas atividades em 2009, destaca-se por estar sempre buscando
-              aperfeiçoamento no seu processo de distribuição, atento aos
-              constantes comunicados normativos da Anvisa.
+              Levar aos profissionais e entidades de saúde, as melhores soluções
+              com os menores custos e no menor tempo possível. Acreditamos que
+              essas premissas ajudam a salvar vidas.
             </p>
           </div>
         </section>
