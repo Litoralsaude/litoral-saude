@@ -63,16 +63,16 @@ const Contact = () => {
               />
               <Item
                 title="Vendas varejo:"
-                description="atendimento@litoralsaude.com.br"
+                description="vendas@litoralsaude.com.br"
               />
               <Item
                 title="Vendas órgãos Públicos"
-                description="atendimento@litoralsaude.com.br"
+                description="vendas@litoralsaude.com.br"
               />
-              <Item title="SAC" description="atendimento@litoralsaude.com.br" />
+              <Item title="SAC" description="sac@litoralsaude.com.br" />
               <Item
                 title="Financeiro"
-                description="atendimento@litoralsaude.com.br"
+                description="faturamento@litoralsaude.com.br"
               />
             </div>
           </div>
