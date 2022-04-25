@@ -13,6 +13,15 @@ const Contact = () => {
         <section>
           <h1 className={globalStyles.h2}>Contato</h1>
           <div className={styles.flexContainer}>
+            <picture className={styles.picture}>
+              <Image
+                width={566}
+                height={376}
+                src="/osorio.jpg"
+                alt="Icone facebook"
+                style={{ opacity: 1 }}
+              />
+            </picture>
             <div className={styles.items}>
               <div>
                 <p className={`${globalStyles.h3} ${itemStyles.h3}`}>
@@ -26,7 +35,7 @@ const Contact = () => {
                   width={17}
                   height={17}
                   src="/face.svg"
-                  alt="Imagem de onda"
+                  alt="Icone facebook"
                   style={{ opacity: 1 }}
                 />
                 <Link href="https://www.facebook.com/people/Litoral-Sa%C3%BAde/100004638612180/">
@@ -38,7 +47,7 @@ const Contact = () => {
                   width={17}
                   height={17}
                   src="/insta.svg"
-                  alt="Imagem de onda"
+                  alt="Icone instagram"
                   style={{ opacity: 1 }}
                 />
                 <Link href="https://www.instagram.com/litoral.saude/">
