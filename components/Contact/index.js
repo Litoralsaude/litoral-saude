@@ -56,7 +56,7 @@ const Contact = () => {
               </div>
             </div>
             <div className={styles.items}>
-              <Item title="Telefone" description="(51) 3601-0063" />
+              <Item title="Telefone" description="+55 (51) 3601-0062/0063" />
               <Item
                 title="E-mail"
                 description="atendimento@litoralsaude.com.br"
@@ -67,9 +67,12 @@ const Contact = () => {
               />
               <Item
                 title="Vendas órgãos Públicos"
-                description="vendas@litoralsaude.com.br"
+                description="licitacao@litoralsaude.com.br"
               />
-              <Item title="SAC" description="sac@litoralsaude.com.br" />
+              <Item
+                title="Serviço de Atendimento ao Consumidor"
+                description="sac@litoralsaude.com.br"
+              />
               <Item
                 title="Financeiro"
                 description="faturamento@litoralsaude.com.br"
