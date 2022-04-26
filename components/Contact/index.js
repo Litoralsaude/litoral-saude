@@ -9,7 +9,7 @@ import globalStyles from "../../styles/global.module.css";
 const Contact = () => {
   return (
     <main className={`${styles.container} container-fluid`}>
-      <div className={` container`}>
+      <div className="container opacityToLeftTransition">
         <section>
           <h1 className={globalStyles.h2}>Contato</h1>
           <div className={styles.flexContainer}>
@@ -62,7 +62,7 @@ const Contact = () => {
                 description="atendimento@litoralsaude.com.br"
               />
               <Item
-                title="Vendas varejo:"
+                title="Vendas varejo"
                 description="vendas@litoralsaude.com.br"
               />
               <Item

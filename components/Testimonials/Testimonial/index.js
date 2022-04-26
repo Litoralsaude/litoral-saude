@@ -6,7 +6,7 @@ import globalStyles from "../../../styles/global.module.css";
 
 const Testimonial = ({ description, user, photo }) => {
   return (
-    <div className={styles.container}>
+    <div className={`${styles.container} opacityToLeftTransition`}>
       <div className={`${styles.imgWrapper} d-none d-lg-block d-xl-block`}>
         <Image
           className={styles.circle}

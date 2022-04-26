@@ -8,13 +8,15 @@ import globalStyles from "../../../styles/global.module.css";
 const WhoWeAre = () => {
   return (
     <section className={`${styles.container} container`}>
-      <Image
-        width={566}
-        height={376}
-        src="/osorio.jpg"
-        alt="Cidade de Osório"
-      />
-      <div className={styles.wrapper}>
+      <div className="leftTransition">
+        <Image
+          width={566}
+          height={376}
+          src="/doctor.jpeg"
+          alt="Cidade de Osório"
+        />
+      </div>
+      <div className={`${styles.wrapper} rightTransition`}>
         <header>
           <p className={styles.resume}>Resumo</p>
           <h2 className={`${globalStyles.h1} ${styles.h2}`}>Quem somos</h2>

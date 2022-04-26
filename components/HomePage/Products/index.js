@@ -11,7 +11,7 @@ const Products = () => {
         <h2 className={globalStyles.h1}>Nossos produtos</h2>
         <div className={styles.cards}>
           <ProductCard
-            src="/money.svg"
+            src="/tooth.svg"
             alt="asdas"
             title="Produtos Odontológicos"
           />

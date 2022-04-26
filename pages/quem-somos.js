@@ -8,7 +8,7 @@ const QuemSomos = () => {
   return (
     <>
       <Header />
-      <main>
+      <main className="opacityToLeftTransition">
         <section className={`${styles.container} container-fluid`}>
           <div className="container">
             <h1 className={globalStyles.h2}>Nossa História</h1>

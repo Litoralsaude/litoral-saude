@@ -61,3 +61,60 @@ address {
 .slick-dots li button:before {
   font-size: 11px;
 }
+
+@keyframes toLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes toRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes opacityToLeftTransition {
+  from {
+    transform: translateX(-10%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.opacityTransition {
+  animation: opacity 2s;
+}
+
+.opacityToLeftTransition {
+  animation: opacityToLeftTransition 2s;
+}
+
+.leftTransition {
+  animation: toLeft 1.5s;
+}
+
+.rightTransition {
+  animation: toRight 1.5s;
+}

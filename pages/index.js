@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import ScrollAnimation from "react-animate-on-scroll";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Presentation from "../components/HomePage/Presentation";
@@ -23,8 +24,13 @@ export default function Home() {
         </div>
         <Presentation />
         <WhoWeAre />
-        <Products />
-        <Testimonials />
+        <ScrollAnimation animateIn="fadeIn" animateOnce duration={2}>
+          <Products />
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="fadeIn" animateOnce duration={2}>
+          <Testimonials />
+        </ScrollAnimation>
       </main>
       <Footer />
     </div>

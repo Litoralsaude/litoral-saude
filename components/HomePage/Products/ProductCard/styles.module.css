@@ -22,6 +22,12 @@
   }
 }
 
+.circle {
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #99cfd0;
+}
+
 .container .title {
   color: #4f4f4f;
   text-align: center;
