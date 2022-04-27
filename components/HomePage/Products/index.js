@@ -12,15 +12,21 @@ const Products = () => {
         <div className={styles.cards}>
           <ProductCard
             src="/tooth.svg"
-            alt="asdas"
+            alt="Icone de dente"
             title="Produtos Odontológicos"
           />
           <ProductCard
             src="/doctor.svg"
-            alt="asdas"
+            alt="Icone de estetoscópio"
             title="Produtos Médicos e Hospitalares "
           />
-          <ProductCard src="/chart.svg" alt="asdas" title="Registro Próprio" />
+          <ProductCard
+            styled
+            size={{ width: 25, height: 25 }}
+            src="/house.svg"
+            alt="Icone de uma casa"
+            title="Registro Próprio"
+          />
         </div>
         <Link href="/produtos">
           <a className={globalStyles.link}>Ver tudo</a>

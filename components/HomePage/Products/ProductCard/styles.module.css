@@ -23,9 +23,14 @@
 }
 
 .circle {
-  padding: 10px;
-  border-radius: 50%;
   background-color: #99cfd0;
+  border-radius: 50%;
+  padding: 3px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container .title {

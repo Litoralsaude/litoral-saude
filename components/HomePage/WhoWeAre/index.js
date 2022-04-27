@@ -18,7 +18,6 @@ const WhoWeAre = () => {
       </div>
       <div className={`${styles.wrapper} rightTransition`}>
         <header>
-          <p className={styles.resume}>Resumo</p>
           <h2 className={`${globalStyles.h1} ${styles.h2}`}>Quem somos</h2>
         </header>
         <p className={`${globalStyles.text} ${styles.text}`}>

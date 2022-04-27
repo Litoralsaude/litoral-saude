@@ -16,7 +16,6 @@ const Produtos = () => {
           <h1 className={`${globalStyles.text} ${styles.subtitle}`}>
             Nossos produtos
           </h1>
-          <p className={globalStyles.h2}>Médicos</p>
           <ul>
             <li className={quemSomosStyles.itemList}>
               - Produtos médicos e hospitalares
@@ -66,7 +65,7 @@ const Produtos = () => {
               <p
                 className={`${globalStyles.text} ${styles.item} ${styles.tag}`}
               >
-                MEDIPRIME
+                MEDIPRIME SAFE
               </p>
             </section>
           </div>
